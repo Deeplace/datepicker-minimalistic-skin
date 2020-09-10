@@ -1,0 +1,113 @@
+@background: #FFFFFF;
+@font: #303C47;
+@highlight: #339D85;
+
+#ui-datepicker-div {
+  font-family: 'Montserrat', sans-serif;
+  background: @background;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 13px;
+  border: none;
+  margin-top: 15px;
+
+  .ui-datepicker-header {
+    background: @background;
+    border: none;
+
+    .ui-datepicker-prev {
+      color: transparent;
+      background: transparent url(images/left.png) no-repeat center center;
+
+      .ui-icon {
+        color: transparent;
+        background: none;
+        border-color: transparent;
+
+        &:focus,
+        &:hover {
+          box-shadow: none;
+          border-color: transparent;
+        }
+      }
+
+      &:focus,
+      &:hover {
+        box-shadow: none;
+        border-color: transparent;
+      }
+    }
+
+    .ui-datepicker-next {
+      color: transparent;
+      background: transparent url(images/right.png) no-repeat center center;
+
+      .ui-icon {
+        color: transparent;
+        background: none;
+        border-color: transparent;
+
+        &:focus,
+        &:hover {
+          box-shadow: none;
+          border-color: transparent;
+        }
+      }
+
+      &:focus,
+      &:hover {
+        box-shadow: none;
+        border-color: transparent;
+      }
+    }
+
+    .ui-datepicker-title {
+      .ui-datepicker-month,
+      .ui-datepicker-year {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: @font;
+      }
+    }
+  }
+
+  .ui-datepicker-calendar {
+    thead {
+      tr {
+        th {
+          span {
+            color: @highlight;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          a {
+            background: @background;
+            text-align: center;
+            height: 30px;
+            width: 30px;
+            border: 2px solid transparent;
+            line-height: 20px;
+
+            &:hover {
+              border: 2px solid @highlight;
+              border-radius: 50%;
+            }
+
+            &.ui-state-active {
+              color: @background;
+              border: 2px solid @highlight;
+              border-radius: 50%;
+              background-color: @highlight;
+            }
+          }
+        }
+      }
+    }
+  }
+}
