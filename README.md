@@ -1,4 +1,4 @@
-# Simply minimalistic skin for datepicker calendar.
+# Simply minimalistic skin for jQuery datepicker calendar.
 
 ## States
 
