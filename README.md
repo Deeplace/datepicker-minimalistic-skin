@@ -1,6 +1,6 @@
-#Simply minimalistic skin for datepicker calendar.
+# Simply minimalistic skin for datepicker calendar.
 
-##States
+## States
 
 + Normal
 
@@ -14,7 +14,7 @@
 
 ![Datepicker active](images/screenshot-active.png)
 
-##Possibilities for customize
+## Possibilities for customize
 
 You have possibility to change text color, background color and highlight colors. For this go to `less` directory and change variables:
 
